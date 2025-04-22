@@ -1,0 +1,35 @@
+Day 2 PHP
+
+
+
+
+
+<?php
+echo "<h1>Calculations</h1>";
+
+ $a=10;
+ $b=30;
+ $c=50;
+$d=60;
+$e=70;
+$sum=$a+$b+$c+$d+$e;
+$avg=$sum/5;
+ echo "average=",$avg;
+
+
+
+# Program to execute the 
+
+<?php
+$amount = 1368;
+
+$hundreds = floor($amount / 100);
+$amount = $amount % 100;
+
+$fifties = floor($amount / 50);
+$amount = $amount % 50;
+
+$tens = floor($amount / 10);
+
+echo "100 = $hundreds 50 = $fifties 10 = $tens";
+?>
