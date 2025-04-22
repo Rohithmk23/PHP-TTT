@@ -1,0 +1,21 @@
+color program
+
+<html>
+<head>
+    <title>My Page</title>
+</head>
+<body>
+    <h1>PHP Page</h1>
+    <?php
+    echo "<font color='red'>Rohith</font><br>";                       print "<font color='blue'>Rohith</font><br>";  
+    echo "<font color='green'>Rohith</font><br>"; 
+    echo "<font color='purple'>Rohith</font><br>";
+    echo "<font color='orange'>Rohith</font><br>";
+    echo "Rohith<br>"; 
+    echo "Rohith<br>";
+    echo "Rohith<br>";
+    $var = print "Its good<br>";  
+    //echo $var;  
+    ?>
+</body>
+</html>
